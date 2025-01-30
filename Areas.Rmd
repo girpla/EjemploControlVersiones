@@ -9,15 +9,32 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Área círculo
+# Área círculo
 
 ```{r}
 r <- 0.5
 Area <- pi*r^2
 ```
+
 # Área cuadrado
 
 ```{r}
 lado <- 3
-AreaCuadrado <- lado
+AreaCuadrado <- lado^2
+```
+
+# Área triángulo
+
+```{r}
+base <- 1
+h <- 2
+AreaTriangulo <- (base*h)/2
+```
+
+# Área rectángulo
+
+```{r}
+base <- 1
+h <- 2
+AreaRectangulo <- base*h
 ```
